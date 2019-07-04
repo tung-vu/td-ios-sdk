@@ -1,3 +1,9 @@
+use_frameworks!
+
+target 'TVOSExample' do
+    pod 'TreasureData-iOS-SDK', :path => '..'
+end
+
 target 'TreasureDataExample' do
   pod 'TreasureData-iOS-SDK', :path => '..'
 end
